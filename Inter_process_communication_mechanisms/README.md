@@ -10,17 +10,17 @@ in parallel).
 | # | File                                     	     | Concept                                                           			   |
 |---|------------------------------------------------|---------------------------------------------------------------------------------|
 
-| 1 |	MAILBOX
+| 1 |	MAILBOX	|
 	 	`01_mailbox_basics.sv`                         | Bounded mailbox, `put()`/`get()`, blocking behavior                           |
 	 	`02_mailbox_methods.sv`                        | `put()`/`get()`, `try_put()`,`try_get()`, blocking and non blocking behaviour |
 	 	`03_mailbox_try_methods.sv`                    | Non-blocking `try_put()`, `try_get()`, `try_peek()`                           |
 
-| 2 |	SEMAPHORE 
+| 2 |	SEMAPHORE	|
 	 	`01_semaphore_basics.sv`                       | Semaphore with a single key - mutual exclusion                                |
 	 	`02_semaphore_methods.sv`                      | Semaphore methods blocking and non blocking                  		           |
 	 	`03_semaphore_multiple_keys.sv`                | Semaphore with multiple keys - limited concurrent access                      |
 
-| 3 |	EVENTS
+| 3 |	EVENTS	|
 		`01_event_basics.sv`                           | Basic event trigger (`->`) and wait (`@(event)`)                              |
 	 	`02_event_methods.sv`         			       | `triggered()` method, `->>` persistent/scheduled trigger                      |
  	 	`03_event_trigger_wait_combinations.sv`        | All 4 combinations: `@`/`wait` waiting with `->`/`->>` triggering             |
