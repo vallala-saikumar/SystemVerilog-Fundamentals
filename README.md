@@ -22,8 +22,9 @@ DV interview prep and hands-on practice.
 ## Folder 10 — Practice Environments
 
 | Project | Description |
-|---|---|
+|---------|-------------|
 | `01_encoder` | Self-checking testbench for a parameterized priority encoder — generator, driver, interface, monitors, and scoreboard |
+| `02_full_subtractor`| Self-checking testbench for a full subtractor |
 
 
 ## How to use this repo
